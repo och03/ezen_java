@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+h1{
+	text-align: center;
+}
+
+.field{
+	border: solid 1px gray;
+	padding-top: 50px;
+}
+
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+
+.login input{
+    border: none;
+    padding: 10px 0px;
+    font-size: 17px;
+    border-bottom: solid 1px gray;
+    margin-bottom: 10px;
+}
+
+.login2{
+	background-color: yellow;
+	padding: 20px;
+	width: 500px;
+	
+}
