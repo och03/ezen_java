@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.구역3 {
+	display : flex;
+	width : 1200px;
+}
+
+.약설명{
+	width: 600px;
+	border: solid 1px #282828;
+	margin: 0 auto;
+   
+
+   	/* background-color: black; */
+   	/* color: white; */
+}
+
+.약설명2{
+	text-align: left;
+	padding: 20px;
+}
