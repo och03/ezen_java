@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<link href="index.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<!-- *{}	: 모든 요소 공통  -->
+	<!-- 태그{}	: 동일한 태그간 공통  -->
+	<!-- class{} : 특정 요소들 간의 공통 [복수형]  -->
+	<!-- id{}	: 특정 요소 1개 [단일형] 페이지당 1개  -->
+
+
+	<div id="wrap">
+
+		<div id="header">
+			<!-- 상단 메뉴 시작 끝  -->
+			<ul class="top_menu">
+				<li><a href="#">LOGIN</a> <span class="line">│</span></li>
+				<li><a href="#">JOIN</a> <span class="line">│</span></li>
+				<li><a href="#">MYPAGE</a> <span class="line">>│</span></li>
+				<li><a href="#">ORDER</a> <span class="line">>│</span></li>
+				<li><a href="#">CART(0)</a> <span class="line">>│</span></li>
+				<li><a href="#">COMMUNITY</a> <span class="line">>│</span></li>
+				<li><a href="#"><img class="top_menu_icon"
+						src="top_menu_icon.png"> </a></li>
+			</ul>
+		</div>
+		<!-- 상단 메뉴 끝  -->
+
+		<div class="main_menu">
+			<ul>
+				<!-- 메뉴  -->
+				<li><a href="http://www.jogunshop.com/index.html"><img
+						class="logo" src="main_icon1.png"></a></li>
+				<li><a href="#">BEST</a></li>
+				<li><a href="#"><span class="new">NEW~20%</span></a></li>
+
+				<li class="drop_menu"><a href="#">MADE</a> <!-- 드랍 메뉴  -->
+					<ul class="sub_menu">
+						<li><a href="#">티</a></li>
+						<li><a href="#">셔츠</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">아우터</a></li>
+					</ul></li>
+
+				<li class="drop_menu"><a href="#">BIG SIZE</a> <!-- 드랍 메뉴  -->
+					<ul class="sub_menu">
+						<li><a href="#">티</a></li>
+						<li><a href="#">셔츠</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">아우터</a></li>
+					</ul></li>
+
+				<li class="drop_menu"><a href="#">TOP</a> <!-- 드랍 메뉴  -->
+					<ul class="sub_menu">
+						<li><a href="#">티</a></li>
+						<li><a href="#">셔츠</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">아우터</a></li>
+					</ul></li>
+
+				<li class="drop_menu"><a href="#">SHIRTS</a> <!-- 드랍 메뉴  -->
+					<ul class="sub_menu">
+						<li><a href="#">티</a></li>
+						<li><a href="#">셔츠</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">아우터</a></li>
+					</ul></li>
+
+				<li class="drop_menu"><a href="#">PANTS</a> <!-- 드랍 메뉴  -->
+					<ul class="sub_menu">
+						<li><a href="#">티</a></li>
+						<li><a href="#">셔츠</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">아우터</a></li>
+					</ul></li>
+
+				<li class="drop_menu"><a href="#">OUTER</a> <!-- 드랍 메뉴  -->
+					<ul class="sub_menu">
+						<li><a href="#">티</a></li>
+						<li><a href="#">셔츠</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">아우터</a></li>
+					</ul></li>
+
+				<li class="drop_menu"><a href="#">SHOES&BAG</a> <!-- 드랍 메뉴  -->
+					<ul class="sub_menu">
+						<li><a href="#">티</a></li>
+						<li><a href="#">셔츠</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">아우터</a></li>
+					</ul></li>
+
+				<li class="drop_menu"><a href="#">ACC</a> <!-- 드랍 메뉴  -->
+					<ul class="sub_menu">
+						<li><a href="#">티</a></li>
+						<li><a href="#">셔츠</a></li>
+						<li><a href="#">바지</a></li>
+						<li><a href="#">아우터</a></li>
+					</ul></li>
+
+				<li><a href="#">당일배송</a></li>
+				<li><a href="#">SALE</a></li>
+				<li><a href="#">BRAND</a></li>
+			</ul>
+			<!-- 메뉴 끝 -->
+
+			<span class="seach_box"> <!-- 검색창  --> <input type="text">
+				<img src="main_icon2.png">
+			</span>
+			<!-- 검색창 끝  -->
+		</div>
+
+
+		<img id="main_img" src="center.jpg">
+
+		<div id="content">
+
+			<h3 class="title">HOT ITEM</h3>
+			<P class="comment">조군이 추천하는 핫 아이템입니다.</P>
+
+			<!-- 핫 아이템이 출력되는 구간  -->
+			<div class="items">
+
+				<!-- 아이템 제품 1개  -->
+				<div class="item">
+					<img src="goods1.gif">
+					<div class="item_info">
+						<div class="color_review">
+							<span class="color"> <span
+								style="background-color: #89959D"></span> <span
+								style="background-color: #373D46"></span>
+							</span>
+							<!-- 아이템 칼라  -->
+
+							<span class="review"> 리뷰 : 447 </span>
+							<!-- 리뷰 끝  -->
+
+						</div>
+
+						<div class="item_name">
+							<p class="name">쿨에버 코튼 프레쉬 반팔티</p>
+							<p class="size">>M~2XL(95~115)</p>
+						</div>
+
+						<div class="item_price">
+							<p class="price">25,000원</p>
+							<p class="discount">23,800원</p>
+							<p>15%</p>
+						</div>
+
+						<div class="item_icon">
+							<img src="BEST.jfif">
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="item">
+					<img src="goods2.gif">
+					<div class="item_info">
+						<div class="color_review">
+							<span class="color"> <span
+								style="background-color: #89959D"></span> <span
+								style="background-color: #373D46"></span>
+							</span>
+							<!-- 아이템 칼라  -->
+
+							<span class="review"> 리뷰 : 447 </span>
+							<!-- 리뷰 끝  -->
+
+						</div>
+
+						<div class="item_name">
+							<p class="name">쿨에버 코튼 프레쉬 반팔티</p>
+							<p class="size">>M~2XL(95~115)</p>
+						</div>
+
+						<div class="item_price">
+							<p class="price">25,000원</p>
+							<p class="discount">23,800원</p>
+							<p>15%</p>
+						</div>
+
+						<div class="item_icon">
+							<img src="BEST.jfif">
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="item">
+					<img src="goods3.gif">
+					<div class="item_info">
+						<div class="color_review">
+							<span class="color"> <span
+								style="background-color: #89959D"></span> <span
+								style="background-color: #373D46"></span>
+							</span>
+							<!-- 아이템 칼라  -->
+
+							<span class="review"> 리뷰 : 447 </span>
+							<!-- 리뷰 끝  -->
+
+						</div>
+
+						<div class="item_name">
+							<p class="name">쿨에버 코튼 프레쉬 반팔티</p>
+							<p class="size">>M~2XL(95~115)</p>
+						</div>
+
+						<div class="item_price">
+							<p class="price">25,000원</p>
+							<p class="discount">23,800원</p>
+							<p>15%</p>
+						</div>
+
+						<div class="item_icon">
+							<img src="BEST.jfif">
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="item">
+					<img src="goods4.gif">
+					<div class="item_info">
+						<div class="color_review">
+							<span class="color"> <span
+								style="background-color: #89959D"></span> <span
+								style="background-color: #373D46"></span>
+							</span>
+							<!-- 아이템 칼라  -->
+
+							<span class="review"> 리뷰 : 447 </span>
+							<!-- 리뷰 끝  -->
+
+						</div>
+
+						<div class="item_name">
+							<p class="name">쿨에버 코튼 프레쉬 반팔티</p>
+							<p class="size">>M~2XL(95~115)</p>
+						</div>
+
+						<div class="item_price">
+							<p class="price">25,000원</p>
+							<p class="discount">23,800원</p>
+							<p>15%</p>
+						</div>
+
+						<div class="item_icon">
+							<img src="BEST.jfif">
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="item">
+					<img src="goods5.gif">
+					<div class="item_info">
+						<div class="color_review">
+							<span class="color"> <span
+								style="background-color: #89959D"></span> <span
+								style="background-color: #373D46"></span>
+							</span>
+							<!-- 아이템 칼라  -->
+
+							<span class="review"> 리뷰 : 447 </span>
+							<!-- 리뷰 끝  -->
+
+						</div>
+
+						<div class="item_name">
+							<p class="name">쿨에버 코튼 프레쉬 반팔티</p>
+							<p class="size">>M~2XL(95~115)</p>
+						</div>
+
+						<div class="item_price">
+							<p class="price">25,000원</p>
+							<p class="discount">23,800원</p>
+							<p>15%</p>
+						</div>
+
+						<div class="item_icon">
+							<img src="BEST.jfif">
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="item">
+					<img src="goods6.gif">
+					<div class="item_info">
+						<div class="color_review">
+							<span class="color"> <span
+								style="background-color: #89959D"></span> <span
+								style="background-color: #373D46"></span>
+							</span>
+							<!-- 아이템 칼라  -->
+
+							<span class="review"> 리뷰 : 447 </span>
+							<!-- 리뷰 끝  -->
+
+						</div>
+
+						<div class="item_name">
+							<p class="name">쿨에버 코튼 프레쉬 반팔티</p>
+							<p class="size">>M~2XL(95~115)</p>
+						</div>
+
+						<div class="item_price">
+							<p class="price">25,000원</p>
+							<p class="discount">23,800원</p>
+							<p>15%</p>
+						</div>
+
+						<div class="item_icon">
+							<img src="BEST.jfif">
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="item">
+					<img src="goods7.gif">
+					<div class="item_info">
+						<div class="color_review">
+							<span class="color"> <span
+								style="background-color: #89959D"></span> <span
+								style="background-color: #373D46"></span>
+							</span>
+							<!-- 아이템 칼라  -->
+
+							<span class="review"> 리뷰 : 447 </span>
+							<!-- 리뷰 끝  -->
+
+						</div>
+
+						<div class="item_name">
+							<p class="name">쿨에버 코튼 프레쉬 반팔티</p>
+							<p class="size">>M~2XL(95~115)</p>
+						</div>
+
+						<div class="item_price">
+							<p class="price">25,000원</p>
+							<p class="discount">23,800원</p>
+							<p>15%</p>
+						</div>
+
+						<div class="item_icon">
+							<img src="BEST.jfif">
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="item">
+					<img src="goods8.gif">
+					<div class="item_info">
+						<div class="color_review">
+							<span class="color"> <span
+								style="background-color: #89959D"></span> <span
+								style="background-color: #373D46"></span>
+							</span>
+							<!-- 아이템 칼라  -->
+
+							<span class="review"> 리뷰 : 447 </span>
+							<!-- 리뷰 끝  -->
+
+						</div>
+
+						<div class="item_name">
+							<p class="name">쿨에버 코튼 프레쉬 반팔티</p>
+							<p class="size">>M~2XL(95~115)</p>
+						</div>
+
+						<div class="item_price">
+							<p class="price">25,000원</p>
+							<p class="dis_price">23,800원</p>
+							<p class="discount">15%</p>
+						</div>
+
+						<div class="item_icon">
+							<img src="BEST.jfif">
+
+						</div>
+
+					</div>
+
+				</div>
+
+
+
+			</div>
+
+
+
+		</div>
+
+	</div>
+
+	<div id="footer">
+		<!-- 푸터  -->
+		<div class="top_ft">
+			<div class="content_ft">
+				<div>
+					<h3>CS CENTER</h3>
+					<h3>카카오톡/네이버톡톡</h3>
+					<p>MON-FRI : 10:00 ~ 17:00</p>
+					<p>LUNCH: 13:00 ~ 14:00</p>
+					<p>SAT, SUN, HOLIDAY OFF</p>
+					<br />
+					<p>대표번호 1599-3120 (유선상담불가)</p>
+				</div>
+
+				<div>
+					<h3>DELIVERY</h3>
+					<p>반품주소:</p>
+					<br />
+					<p>경기도 부천시 길주로 347(중동) 5층 물류센터</p>
+					<p>대한통운 택배 이용</p>
+				</div>
+
+				<div>
+					<h3>BANK ACCOUNT</h3>
+					<p>예금주 : ㈜조군</p>
+					<br />
+					<p>우리 1005-601-776813</p>
+					<p>농협 351-0286-8129-53</p>
+					<p>기업 114-153764-04-011</p>
+					<p>국민 594401-04-027446</p>
+					<p>신한 140-009-662523</p>
+				</div>
+
+				<div>
+					<h3>MENU</h3>
+					<p>홈</p>
+					<p>이용약관</p>
+					<p>개인정보처리방침</p>
+					<p>쇼핑몰 이용안내</p>
+				</div>
+
+			</div>
+		</div>
+		<div class="bottom_ft"></div>
+	</div>
+	<!--  푸터 end  -->
+
+	<div id="popup_wrap">
+		<!-- 팝업창 구역  -->
+		<ul>
+			<li class="popup_item">
+				<img src="recent.png">
+				<span class="sub_item">최근본상품</span>
+			</li>
+			<li><img src="good.png"></li>
+			<li><img src="check.png"></li>
+			<li><img src="kakao.png"></li>
+			<li><img src="up.png"></li>
+			<li><img src="down.png"></li>
+
+
+
+		</ul>
+
+
+	</div>
+	<!-- wrap  -->
+</body>
+</html>
