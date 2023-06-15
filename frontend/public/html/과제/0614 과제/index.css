@@ -11,7 +11,7 @@ a{ /* a 기본값 제거  */
 li{ list-style-type: none; } /* 글머리 제거 */
 
 #header{
-	width: 1200px;
+	width: 800px;
 	height: 50px;
 	text-align: center;
 	margin: 0 auto;
@@ -25,7 +25,7 @@ li{ list-style-type: none; } /* 글머리 제거 */
 }
 
 .header2{
-	color: blue;	
+	color: #1F5ABB;	
 }
 
 .header3 li{
@@ -34,12 +34,14 @@ li{ list-style-type: none; } /* 글머리 제거 */
 	font-size: 13px;
 }
 
-.main_img img{
-	height: 500px;
-	width : 80%;
-	margin: 0 auto;
+.main_img{
 	display: flex;
 	justify-content: center;
+}
+
+.main_img img{
+	height: 500px;
+	width : 1400px;
 }
 
 #content{
@@ -111,7 +113,7 @@ li{ list-style-type: none; } /* 글머리 제거 */
 }
 
 .footer1{
-	width: 1200px;
+	width: 800px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;	
@@ -123,7 +125,7 @@ li{ list-style-type: none; } /* 글머리 제거 */
 }
 
 .footer2 li{
-	font-size: 30px;
+	font-size: 25px;
 }
 
 .footer3 li{
@@ -135,7 +137,9 @@ li{ list-style-type: none; } /* 글머리 제거 */
 }
 
 .footer_end{
+	width: 85px;
 	display: flex;
+	justify-content: space-between;
 	margin-top: -50px;
 }
 	
@@ -143,8 +147,4 @@ li{ list-style-type: none; } /* 글머리 제거 */
 .footer_end img{
 	width: 25px;
 	height: 25px;
-}
-
-.sub_manu{
-	display: none;  /* 서브메뉴 숨김  */
 }
