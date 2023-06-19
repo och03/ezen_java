@@ -28,7 +28,6 @@ li{list-style-type: none; } /* 글머리 제거 */
 	justify-content: space-between;
 	text-align: center;
 	font-size: 10px;
-	color: #000000;
 	width: 100%;
 	margin: 10px 10px 10px 10px;
 }
@@ -39,14 +38,70 @@ li{list-style-type: none; } /* 글머리 제거 */
 
 .top_header_left{
 	margin-left: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
+
+.top_header_left_sub{
+	position: relative;
+}
+
+.top_header_left_sub_drop{
+	top: 30px;
+	left: -20px;
+	border: 1px solid #EBEAE6;
+	display: none;  /* 서브메뉴 숨김  */
+	position: absolute;
+	width: 140px;
+	height: 15px;
+	text-align: center;
+	padding: 5px;
+	
+}
+
+.top_header_left_sub:hover .top_header_left_sub_drop{
+	display: block;
+}
+
+	
 
 .top_header_right{
 	margin-right: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 10px;
 }
+
 
 .top_header_right select{
 	border: none;
+
+}
+
+.top_header_right_drop{
+	position: relative; /* 부모요소에 상대위치 */
+	
+}
+
+.top_header_right_drop_sub{
+	top: 25px;
+	left: -25px;
+	border: 1px solid #EBEAE6;
+	display: none;  /* 서브메뉴 숨김  */
+	position: absolute;
+	text-align: left;
+	line-height: 250%;
+	width: 70px;
+	height: 150px;
+	padding: 10px 10px;
+	text-decoration: underline;
+}
+
+
+.top_header_right_drop:hover .top_header_right_drop_sub{
+	display: block;
 }
 
 .top_header_margin{
@@ -152,7 +207,7 @@ li{list-style-type: none; } /* 글머리 제거 */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	line-height: 210%;
+	line-height: 220%;
 	position: fixed;
 	right: 30px;
 	top: 25%;
@@ -166,17 +221,16 @@ li{list-style-type: none; } /* 글머리 제거 */
 }
 
 .sidebar_drop_sub{
-	top: -5px;
+	top: 10px;
 	left: -70px;
-	border: 1px solid;
 	background-color: #333333;
 	display: none;  /* 서브메뉴 숨김  */
 	position: absolute;
 	font-size: 12px;
 	text-align: center;
 	vertical-align: center;
-	height: 10px;
-	padding: 10px 10px;
+	padding: 0px 10px;
+	
 }
 
 .sidebar_drop_sub a{
