@@ -138,19 +138,50 @@ li{list-style-type: none; } /* 글머리 제거 */
 
 
 
-#sidebar_main{
-	position: fixed;
-	right: 30px;
-	top: 25%;
+#sidebar{
+
 }
 
-#sidebar_main ul{
+#sidebar img{
+	width: 33px;
+}
+
+
+
+.sidebar_sub{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	line-height: 220%;
-}	
-
-#sidebar_main img{
-	width: 33px;
+	line-height: 210%;
+	position: fixed;
+	right: 30px;
+	top: 25%;
+	font-size: 14px;
+	
 }
+
+.sidebar_drop{
+	position: relative;
+
+}
+
+.sidebar_drop_sub{
+	top: -5px;
+	left: -70px;
+	border: 1px solid;
+	background-color: #333333;
+	display: none;  /* 서브메뉴 숨김  */
+	position: absolute;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	height: 20px;
+	padding: 10px 10px;
+
+}
+
+
+.sidebar_drop:hover .sidebar_drop_sub{
+	display: block;
+}
+
