@@ -146,8 +146,8 @@ console.log('점수의 등급 : ' + 등급)
 
 //   문제9 : 정수 2개를 입력받아 더 큰수 를 출력
 
-let value1 = prompt('정수1 : ')
-let value2 = prompt('정수2 : ')
+let value1 = Number(prompt('정수1 : '))
+let value2 = Number(prompt('정수2 : '))
 console.log('두 정수중 더 큰수 : ' + (value1>value2 ? value1 : value2));
 console.log('두 정수중 더 큰수 : ' + (value1>value2 ? value1 : value1<value2 ? value2 : '두 수는 같다'));
 
@@ -164,3 +164,10 @@ console.log('세 정수중 가장 큰 수 : ' + max)
 
 
 //   문제11 : 정수 3개를 입력받아 오름차순 으로 출력    [ 7 5 9 -> 5 7 9]
+
+let value6 = prompt('정수6 : ')
+let value7 = prompt('정수7 : ')
+let value8 = prompt('정수8 : ')
+
+  
+
